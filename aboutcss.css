@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #dce6dc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #194d33;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+strong {
+    color: #194d33;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+}
