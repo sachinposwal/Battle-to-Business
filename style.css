@@ -648,7 +648,7 @@ body {
 .hidden {
     opacity: 0;
     filter: blur(1px);
-    transform: translateY(100px);
+    transform: translateY(20px);
     transition: all 0.5s ease-out;
 }
 
